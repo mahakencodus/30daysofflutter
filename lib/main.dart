@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:hello1/Pages/Home_Page.dart';
 
 import 'Pages/Home_Page.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.light,
       theme: ThemeData(
         primarySwatch: Colors.purple,
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
